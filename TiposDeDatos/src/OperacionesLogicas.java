@@ -1,0 +1,18 @@
+public class OperacionesLogicas {
+    public static void main(String[] args) {
+        int a = 8;
+        int b = 5;
+
+        if(a==b){
+            System.out.println("a es igual a b");
+        } else if (a>b){
+            System.out.println("a es mayor a b");
+        }else if(a<b){
+            System.out.println("a es menor a b");
+        }else if(a>=b){
+            System.out.println("a es mayor o igual a b");
+        }else if(a<=b){
+            System.out.println("a es menor o igual a b");
+        }
+    }
+}
